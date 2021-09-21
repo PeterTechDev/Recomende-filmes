@@ -1,0 +1,110 @@
+body {
+    background-image: url(assets/bg2.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    animation: 20s linear 0s infinite bp;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 250px;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    background: url('assets/bg1.jpeg');
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    border-radius: 0 0 85% 85% / 30%;
+}
+
+header .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient( 135deg, #4ea07769 10%, #8bb7d46b 100%);
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+h3, p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 5px;
+    color: #333;
+    background: greenyellow;
+    margin-bottom: 50px;
+    box-shadow: 0 3px 20px 0 #0000003b;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+main{
+    width: 90vw;
+}
+.poster-container {
+    margin-top: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.poster {
+    margin: 10px auto;
+    padding: 10px;
+}
+
+/* ANIMATION BACKGROUND */
+
+@keyframes bp {
+    from {
+        background-position: 198px 0;
+    }
+    to {
+        background-position: 0 198px;
+    }
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.text {
+    font: 900 18px Ruda;
+    color: #C08;
+    background: white;
+    display: inline-block;
+    padding: 1rem;
+}
